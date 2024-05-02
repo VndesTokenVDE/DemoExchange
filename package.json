@@ -1,0 +1,15 @@
+{
+  "name": "DemoExchange",
+  "version": "1.0.0",
+  "repository": "https://github.com/VndesTokenVDE/DemoExchange",
+  "author": "CV",
+  "license": "MIT",
+  "dependencies": {
+    "vercel": "^31.2.2"
+  },
+  "scripts": {
+    "setup": "yarn vercel login && yarn vercel link",
+    "start": "yarn vercel dev",
+    "dev": "yarn start"
+  }
+}
